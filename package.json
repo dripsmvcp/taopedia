@@ -93,17 +93,22 @@
   "dependencies": {
     "@astrojs/mdx": "^5.0.6",
     "@resvg/resvg-js": "^2.6.2",
-    "astro": "^6.3.8",
-    "gray-matter": "^4.0.3",
+    "astro": "^6.4.8",
     "pagefind": "^1.2.2",
     "rehype-stringify": "^10.0.1",
     "remark-parse": "^11.0.0",
     "remark-rehype": "^11.1.1",
     "remark-wiki-link": "^2.0.1",
-    "unified": "^11.0.5"
+    "unified": "^11.0.5",
+    "yaml": "^2.9.0"
   },
   "devDependencies": {
     "@types/node": "^22.10.5",
     "typescript": "^5.7.3"
+  },
+  "overrides": {
+    "js-yaml": "4.2.0",
+    "esbuild": "0.28.1",
+    "vite": "7.3.5"
   }
 }
