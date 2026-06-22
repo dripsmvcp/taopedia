@@ -102,7 +102,8 @@
     "test:document-base": "node scripts/check-document-base.js",
     "test:search-typeahead": "node scripts/check-search-typeahead.js",
     "test:hovercards": "node scripts/check-hovercards.js",
-    "test:related-pages": "node scripts/check-related-pages.js"
+    "test:related-pages": "node scripts/check-related-pages.js",
+    "test:webmanifest": "node scripts/check-webmanifest.js"
   },
   "dependencies": {
     "@astrojs/mdx": "^5.0.6",
